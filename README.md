@@ -1,4 +1,4 @@
-# Project Exam 2(Nordic Shoe Store)
+# Semester Project 2(Nordic Shoe Store)
 
 ![image](https://i.imgur.com/Z2QRW52.png)
 
@@ -32,7 +32,7 @@ you access to the Admin page. There you can add new products, change current pro
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Advancedhd/Semester-Project2.git
+git clone git@github.com:Advancedhd/nordic-shoe-store.git
 ```
 
 2. Install the dependencies:
