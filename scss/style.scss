@@ -1,0 +1,14 @@
+@use "custom";
+
+//Components
+@use "components/typography";
+
+//Partials
+@use "partial/herobanner";
+@use "partial/navbar";
+@use "partial/layout";
+@use "partial/adminforms";
+@use "partial/products";
+@use "partial/cart";
+@use "partial/productDetails";
+@use "partial/loginForm";

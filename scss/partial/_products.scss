@@ -1,0 +1,16 @@
+@use "../custom" as *;
+
+
+main a{
+    color: black;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.card-title{
+    font-weight: bold;
+}

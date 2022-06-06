@@ -1,0 +1,54 @@
+@use "../custom" as *;
+
+
+.no-cart{
+    margin-left: 35%;
+}
+
+.cart-title{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: $gray;
+    color: $white;
+}
+
+.checkout-btn{
+    margin-left:39%;
+    font-size: 25px;
+    margin-bottom: 17px;
+    margin-right: 29px;
+    border: 2px solid $secondary;
+}
+
+.clearall-btn{
+    font-size: 25px;
+    margin-bottom: 17px;
+    border: 2px solid $secondary;
+}
+
+.checkoutText{
+    color: green;
+    margin-left: 35%;
+}
+
+.totalPrice{
+    font-size: 30px;
+    padding-left: 40%
+}
+
+.priceSum{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+    .checkout-btn{
+        margin-left: 17%;
+    }
+    .totalPrice{
+        padding-left: 0;
+        text-align: center;
+    }
+}

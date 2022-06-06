@@ -1,0 +1,40 @@
+@use "../custom" as *;
+
+
+#sendAdd, #sendEdit, #sendDelete, #curProductList{
+    border: 2px solid $gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    padding-right: 30px;
+}
+
+
+.adminforms-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adminforms-container button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.form-group, .form-check, .adminforms-container h1, .current-products{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .adminforms-container {
+      display: block;
+    }
+    #sendAdd, #sendEdit, #sendDelete, #curProductList{
+        border: 2px solid $gray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding-right: 30px;
+    }
+  }

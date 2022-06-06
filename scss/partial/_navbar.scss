@@ -1,0 +1,29 @@
+@use "../custom" as *;
+
+ul li a {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler {
+    margin-left: 46%;
+    margin-top: 20px;
+    border: 2px solid black !important;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .navbar-collapse{
+    padding-top: 20px;
+  }
+}

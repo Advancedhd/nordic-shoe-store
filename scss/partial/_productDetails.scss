@@ -1,0 +1,26 @@
+@use "../custom" as *;
+
+
+.detailsDesc{
+    max-height: 166px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .card {
+      margin-left: 18%;
+      margin-top: 30px;
+    }
+
+    .detailsTitle{
+        margin-top: 30px;
+    }
+
+    .detailsPriceTitle{
+        font-weight: bold;
+    }
+  }
