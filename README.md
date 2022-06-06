@@ -1,6 +1,6 @@
 # Project Exam 2(Nordic Shoe Store)
 
-![image](https://i.imgur.com/HL6wfPh.png)
+![image](https://i.imgur.com/Z2QRW52.png)
 
 This is made to be a e-commerce site that sells shoes. It has quite alot of functionality.
 
@@ -8,7 +8,7 @@ This is made to be a e-commerce site that sells shoes. It has quite alot of func
 
 The site is made using HTML for viewing, Vanilla JS for functionality, sass for styling.
 For the viewer its a site where you can browse shoes this is done via get request to the headless cms, go into specific shoes and add them
-to a cart if you want, pretty simple.
+to a cart if you want, pretty simple. The user can also Search for items in the searchbar.
 
 If you are an admin, you can login to the page using an account from Strapi. And it gives
 you access to the Admin page. There you can add new products, change current products, delete products.
@@ -17,6 +17,7 @@ you access to the Admin page. There you can add new products, change current pro
 - Login functionality
 - GET/POST/PUT/DELETE
 - Semi working cart functionality
+- Search Functionality
 
 ## Built With
 
