@@ -1,6 +1,6 @@
 # Semester Project 2(Nordic Shoe Store)
 
-![image](https://i.imgur.com/Z2QRW52.png)
+![image](https://i.imgur.com/p7y5pZa.jpg)
 
 This is made to be a e-commerce site that sells shoes. It has quite alot of functionality.
 
